@@ -1,13 +1,14 @@
 const sumAll = function(num1, num2) {
-    function sum(num1, num2) {
-        if (true) {
-            return
+    
+    function sum(startNum, endNum) {
+        if (startNum === endNum) {
+            return startNum
         } else {
-            
+            return sum(startNum, endNum - 1) + endNum
         }
     }
-
-    return 
+    
+    return sum(num1, num2)
 };
 
 // Do not edit below this line
