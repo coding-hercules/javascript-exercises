@@ -1,5 +1,5 @@
 const reverseString = function(string) {
-    /*let reversedString = '';
+    let reversedString = '';
     
     // split word/phrase into individual characters
     let arr = string.split("") 
@@ -9,15 +9,8 @@ const reverseString = function(string) {
     }
     //return final string
 
-    return reversedString*/
-    function recursion (string) {
-        if (true) {
-            return
-        }
-        recursion()
-    }
+    return reversedString
     
-    recursion();
 };
 
 // Do not edit below this line
