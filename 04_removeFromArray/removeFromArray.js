@@ -1,12 +1,16 @@
-const removeFromArray = function(arr, numRemove) {
+const removeFromArray = function(arr, ...numRemove) {
     
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === numRemove) {
-            arr.splice(i, 1)
+    for (const num of numRemove) {
+
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === num) {
+                arr.splice(i, 1)
+                continue
+            }
             continue
         }
-        continue
     }
+    
     return arr 
 };
 
