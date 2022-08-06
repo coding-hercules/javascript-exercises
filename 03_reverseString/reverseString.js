@@ -10,8 +10,14 @@ const reverseString = function(string) {
     //return final string
 
     return reversedString*/
-
+    function recursion (string) {
+        if (true) {
+            return
+        }
+        recursion()
+    }
     
+    recursion();
 };
 
 // Do not edit below this line
