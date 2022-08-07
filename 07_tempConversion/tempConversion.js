@@ -1,5 +1,5 @@
 const ftoc = function(fahrenheit) {
-
+  return parseFloat(((fahrenheit - 32) * 5 / 9).toFixed(1))
 };
 
 const ctof = function(celsius) {
